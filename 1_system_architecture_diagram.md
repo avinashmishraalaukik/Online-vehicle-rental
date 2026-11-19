@@ -76,13 +76,7 @@ PATH 2 — Dynamic Requests (search, book, pay, login)
       |          |          |          |          |
       v          v          v          v          v
  +---------+ +--------+ +--------+ +--------+ +----------+
- |  User   | |Vehicle | |Booking | |Payment | |  Search  |
- | Service | |Service | |Service | |Service | |  Service |
- +---------+ +--------+ +--------+ +--------+ +----------+
-      |          |          |          |          |
-      +----------+----------+----------+----------+
-                             |
-                             v
+ |                     v
 +------------------------------------------------------------------+
 |                 REDIS CACHE  (checked first)                     |
 |   Vehicle listings | User sessions | Availability calendar       |
