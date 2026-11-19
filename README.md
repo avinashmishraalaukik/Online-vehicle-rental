@@ -2,7 +2,7 @@
 ## Description
 Added vehicle booking workflow documentation.
 
-## Changes Made
+## Changes 
 - Added booking process.
 - Added booking status details.
 - Added booking validation rules.
