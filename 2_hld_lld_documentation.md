@@ -296,3 +296,5 @@ BookingController.createBooking(req, res)
 ```
 
 None of these layers know or care about what the others look like internally.
+
+This is all about HLD and LLD
