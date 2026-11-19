@@ -50,11 +50,6 @@ PATH 2 — Dynamic Requests (search, book, pay, login)
    '---> [2] Query POSTGRESQL (fetch -> store in Redis -> return)
 ```
 
----
-
-## FULL SYSTEM ARCHITECTURE
-
-```
 +------------------------------------------------------------------+
 |                           CLIENTS                                |
 |               Web App    Mobile App    Admin Panel               |
